@@ -1,0 +1,42 @@
+[0.348s] Invoking command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake /home/majuste/Programação/ROS2/UDH1/Navigation/src/udh1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_description
+[3.061s] -- The C compiler identification is GNU 11.4.0
+[3.824s] -- The CXX compiler identification is GNU 11.4.0
+[3.907s] -- Detecting C compiler ABI info
+[3.980s] -- Detecting C compiler ABI info - done
+[3.985s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.997s] -- Detecting C compile features
+[4.019s] -- Detecting C compile features - done
+[4.026s] -- Detecting CXX compiler ABI info
+[4.075s] -- Detecting CXX compiler ABI info - done
+[4.079s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.079s] -- Detecting CXX compile features
+[4.079s] -- Detecting CXX compile features - done
+[4.126s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.430s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.488s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.530s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.530s] -- Added test 'lint_cmake' to check CMake code style
+[4.530s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.531s] -- Added test 'xmllint' to check XML markup files
+[4.531s] -- Configuring done
+[4.533s] -- Generating done
+[4.534s] -- Build files have been written to: /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description
+[4.537s] Invoked command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake /home/majuste/Programação/ROS2/UDH1/Navigation/src/udh1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_description
+[4.538s] Invoking command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description -- -j24 -l24
+[4.557s] Invoked command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description -- -j24 -l24
+[4.562s] Invoking command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description
+[4.566s] -- Install configuration: ""
+[4.567s] -- Execute custom install script
+[4.567s] -- Symlinking: /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_description/share/udh1_description/urdf/udh1.urdf
+[4.571s] -- Symlinking: /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_description/share/udh1_description/launch/display.launch.py
+[4.576s] -- Symlinking: /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_description/share/udh1_description/rviz/udh1_config.rviz
+[4.581s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[4.581s]   ament_cmake_symlink_install_directory() can't find
+[4.581s]   '/home/majuste/Programação/ROS2/UDH1/Navigation/src/udh1_description/meshes'
+[4.581s] Call Stack (most recent call first):
+[4.581s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[4.581s]   cmake_install.cmake:46 (include)
+[4.581s] 
+[4.581s] 
+[4.582s] Invoked command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description

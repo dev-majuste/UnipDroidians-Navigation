@@ -1,0 +1,1 @@
+/home/majuste/Programação/ROS2/UDH1/Navigation/src/sllidar_ros2/launch/sllidar_a2m12_launch .py

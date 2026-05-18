@@ -1,0 +1,1 @@
+Invoking command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2 -- -j24 -l24

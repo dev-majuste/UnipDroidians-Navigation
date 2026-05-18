@@ -1,0 +1,34 @@
+running develop
+running egg_info
+creating my_robot_bringup.egg-info
+writing my_robot_bringup.egg-info/PKG-INFO
+writing dependency_links to my_robot_bringup.egg-info/dependency_links.txt
+writing entry points to my_robot_bringup.egg-info/entry_points.txt
+writing requirements to my_robot_bringup.egg-info/requires.txt
+writing top-level names to my_robot_bringup.egg-info/top_level.txt
+writing manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+reading manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/lib/python3.10/site-packages/my-robot-bringup.egg-link (link to .)
+Installing base_driver script to /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/lib/my_robot_bringup
+Installing base_driver_pulse script to /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/lib/my_robot_bringup
+
+Installed /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup
+running symlink_data
+creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/ament_index
+creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/ament_index/resource_index
+creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/resource/my_robot_bringup -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/package.xml -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup
+creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/navigation.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/navigation_realsense.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/robot.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/udh1_core.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/udh1_core_maping.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/udh1_core_maping_pulse.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/visualizar_mapa.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/launch/gazebo.launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/launch
+creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/rviz
+symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/my_robot_bringup/rviz/nav2_udh1.rviz -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/my_robot_bringup/share/my_robot_bringup/rviz

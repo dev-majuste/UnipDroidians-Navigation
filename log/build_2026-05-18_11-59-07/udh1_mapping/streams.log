@@ -1,0 +1,31 @@
+[3.121s] Invoking command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/prefix_override:/home/majuste/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/build --no-deps symlink_data
+[3.242s] running develop
+[3.310s] running egg_info
+[3.310s] creating udh1_mapping.egg-info
+[3.310s] writing udh1_mapping.egg-info/PKG-INFO
+[3.310s] writing dependency_links to udh1_mapping.egg-info/dependency_links.txt
+[3.310s] writing entry points to udh1_mapping.egg-info/entry_points.txt
+[3.310s] writing requirements to udh1_mapping.egg-info/requires.txt
+[3.310s] writing top-level names to udh1_mapping.egg-info/top_level.txt
+[3.310s] writing manifest file 'udh1_mapping.egg-info/SOURCES.txt'
+[3.311s] reading manifest file 'udh1_mapping.egg-info/SOURCES.txt'
+[3.312s] writing manifest file 'udh1_mapping.egg-info/SOURCES.txt'
+[3.312s] running build_ext
+[3.312s] Creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/lib/python3.10/site-packages/udh1-mapping.egg-link (link to .)
+[3.313s] 
+[3.313s] Installed /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping
+[3.313s] running symlink_data
+[3.313s] creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/ament_index
+[3.313s] creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/ament_index/resource_index
+[3.313s] creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/ament_index/resource_index/packages
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/resource/udh1_mapping -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/ament_index/resource_index/packages
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/package.xml -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping
+[3.313s] creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/launch
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/launch/filter_launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/launch
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/launch/launch.py -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/launch
+[3.313s] creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/config
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/config/laser_filters.yaml -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/config
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/config/mapper_params_online_async.yaml -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/config
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/config/nav2_params.yaml -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/config
+[3.313s] symbolically linking /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/config/nav2_params_realsense.yaml -> /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/share/udh1_mapping/config
+[3.339s] Invoked command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/prefix_override:/home/majuste/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/build --no-deps symlink_data

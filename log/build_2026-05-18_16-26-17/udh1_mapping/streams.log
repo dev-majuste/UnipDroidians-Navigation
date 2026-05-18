@@ -1,0 +1,16 @@
+[0.562s] Invoking command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/prefix_override:/home/majuste/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/build --no-deps symlink_data
+[0.674s] running develop
+[0.740s] running egg_info
+[0.741s] writing udh1_mapping.egg-info/PKG-INFO
+[0.741s] writing dependency_links to udh1_mapping.egg-info/dependency_links.txt
+[0.741s] writing entry points to udh1_mapping.egg-info/entry_points.txt
+[0.741s] writing requirements to udh1_mapping.egg-info/requires.txt
+[0.741s] writing top-level names to udh1_mapping.egg-info/top_level.txt
+[0.742s] reading manifest file 'udh1_mapping.egg-info/SOURCES.txt'
+[0.742s] writing manifest file 'udh1_mapping.egg-info/SOURCES.txt'
+[0.743s] running build_ext
+[0.743s] Creating /home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/lib/python3.10/site-packages/udh1-mapping.egg-link (link to .)
+[0.744s] 
+[0.744s] Installed /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping
+[0.744s] running symlink_data
+[0.764s] Invoked command in '/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ PYTHONPATH=/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/prefix_override:/home/majuste/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_mapping/build --no-deps symlink_data
