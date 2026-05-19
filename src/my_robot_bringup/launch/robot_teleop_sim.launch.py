@@ -61,11 +61,11 @@ def generate_launch_description():
     )
 
     safe_stop = Node(
-    package='serial_com_py',
-    executable='safe_stop',
-    name='safe_stop',
-    output='screen'
-)
+        package='serial_com_py',
+        executable='safe_stop',
+        name='safe_stop',
+        output='screen'
+    )
 
     return LaunchDescription([
         robot_state_publisher,

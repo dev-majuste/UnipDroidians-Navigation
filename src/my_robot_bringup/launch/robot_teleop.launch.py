@@ -45,6 +45,13 @@ def generate_launch_description():
         output='screen'
     )
 
+    safe_stop = Node(
+        package='serial_com_py',
+        executable='safe_stop',
+        name='safe_stop',
+        output='screen'
+    )
+
     lidar = Node(
         package='sllidar_ros2',
         executable='sllidar_node',
@@ -81,6 +88,7 @@ def generate_launch_description():
     return LaunchDescription([
         robot_state_publisher,
         base_driver,
+        safe_stop,
         lidar,
         rviz
     ])

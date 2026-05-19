@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/majuste/Programação/ROS2/UDH1/Navigation/install/udh1_description")
+  set(install_space "/home/home/TestNavigation/install/udh1_description")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description/install_manifest.txt")
+set(install_manifest "/home/home/TestNavigation/build/udh1_description/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()
@@ -57,4 +57,4 @@ message(STATUS "Execute custom uninstall script")
 # begin of custom uninstall code
 
 # uninstall files installed using the symlink install functions
-include("/home/majuste/Programação/ROS2/UDH1/Navigation/build/udh1_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")
+include("/home/home/TestNavigation/build/udh1_description/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

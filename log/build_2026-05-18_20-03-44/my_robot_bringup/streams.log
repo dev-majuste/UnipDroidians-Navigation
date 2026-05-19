@@ -1,0 +1,18 @@
+[1.482s] Invoking command in '/home/home/TestNavigation/build/my_robot_bringup': PYTHONPATH=/home/home/TestNavigation/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/my_robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/my_robot_bringup/build --no-deps symlink_data
+[1.846s] running develop
+[2.083s] running egg_info
+[2.084s] writing my_robot_bringup.egg-info/PKG-INFO
+[2.084s] writing dependency_links to my_robot_bringup.egg-info/dependency_links.txt
+[2.084s] writing entry points to my_robot_bringup.egg-info/entry_points.txt
+[2.084s] writing requirements to my_robot_bringup.egg-info/requires.txt
+[2.084s] writing top-level names to my_robot_bringup.egg-info/top_level.txt
+[2.086s] reading manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+[2.088s] writing manifest file 'my_robot_bringup.egg-info/SOURCES.txt'
+[2.089s] running build_ext
+[2.090s] Creating /home/home/TestNavigation/install/my_robot_bringup/lib/python3.10/site-packages/my-robot-bringup.egg-link (link to .)
+[2.091s] Installing base_driver script to /home/home/TestNavigation/install/my_robot_bringup/lib/my_robot_bringup
+[2.091s] Installing base_driver_pulse script to /home/home/TestNavigation/install/my_robot_bringup/lib/my_robot_bringup
+[2.091s] 
+[2.091s] Installed /home/home/TestNavigation/build/my_robot_bringup
+[2.091s] running symlink_data
+[2.132s] Invoked command in '/home/home/TestNavigation/build/my_robot_bringup' returned '0': PYTHONPATH=/home/home/TestNavigation/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/my_robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/my_robot_bringup/build --no-deps symlink_data

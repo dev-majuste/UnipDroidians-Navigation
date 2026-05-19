@@ -1,1 +1,1 @@
-/home/majuste/Programação/ROS2/UDH1/Navigation/src/my_robot_bringup/launch/udh1_core_maping_pulse.launch.py
+/home/home/TestNavigation/src/my_robot_bringup/launch/udh1_core_maping_pulse.launch.py

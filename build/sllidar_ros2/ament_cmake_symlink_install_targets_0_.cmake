@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2/sllidar_node" "/home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2/sllidar_client" "TARGETS" "sllidar_node" "sllidar_client" "RUNTIME_DESTINATION" "lib/sllidar_ros2")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/home/TestNavigation/build/sllidar_ros2/sllidar_node" "/home/home/TestNavigation/build/sllidar_ros2/sllidar_client" "TARGETS" "sllidar_node" "sllidar_client" "RUNTIME_DESTINATION" "lib/sllidar_ros2")

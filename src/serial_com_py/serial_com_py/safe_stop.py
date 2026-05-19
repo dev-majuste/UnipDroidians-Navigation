@@ -54,7 +54,7 @@ class SafetyStop(Node):
             # radianos -> graus
             deg = math.degrees(angle)
             # verifica a frente do robo, aproximadamente entre -35° e +35°
-            if -35.0 <= deg <= 35.0:
+            if deg >= 120.0 or deg <= -120.0:
                 if r < self.stop_distance:
                     self.obstacle_detected = True
                     return

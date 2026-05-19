@@ -1,0 +1,799 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71dd5918afe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71dd5918aad0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71dd5918aad0>>)
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/home/TestNavigation'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'ros'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_ConstantSpeed) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/AFMotor_MultiStepper) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Blocking) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Bounce) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ConstantSpeed) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/DualMotorShield) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MotorShield) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultiStepper) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/MultipleSteppers) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Overshoot) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/ProportionalControl) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'ros'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extensions ['cmake', 'python']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'cmake'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'python'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extensions ['python_setup_py']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Quickstop) by extension 'python_setup_py'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extensions ['python_setup_py']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/examples/Random) by extension 'python_setup_py'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'ros'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extensions ['cmake', 'python']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'python'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'ros'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extensions ['cmake', 'python']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'cmake'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extensions ['python_setup_py']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/extras/doc) by extension 'python_setup_py'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/AccelStepper/src) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_HowItWorks) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_Led) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_LowLevel) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'ros'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extensions ['cmake', 'python']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'cmake'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'python'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extensions ['python_setup_py']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/examples/PinChangeInterrupt_TickTock) by extension 'python_setup_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/libraries/PinChangeInterrupt/src) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometry_new) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extensions ['cmake', 'python']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'cmake'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'python'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extensions ['python_setup_py']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(Arduino/odometrypulse-malha) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(mapas) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_python' and name 'my_robot_bringup'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_com_py) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_com_py' with type 'ros.ament_python' and name 'serial_com_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_description) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/udh1_description' with type 'ros.ament_cmake' and name 'udh1_description'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/udh1_mapping) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/udh1_mapping' with type 'ros.ament_python' and name 'udh1_mapping'
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.355s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/home/TestNavigation/install
+[0.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 442 installed packages in /opt/ros/humble
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/home/TestNavigation/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/home/TestNavigation/install/my_robot_bringup', 'merge_install': False, 'path': '/home/home/TestNavigation/src/my_robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'serial_com_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'serial_com_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/home/TestNavigation/build/serial_com_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/home/TestNavigation/install/serial_com_py', 'merge_install': False, 'path': '/home/home/TestNavigation/src/serial_com_py', 'symlink_install': True, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/home/TestNavigation/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/home/TestNavigation/install/sllidar_ros2', 'merge_install': False, 'path': '/home/home/TestNavigation/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'udh1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/home/TestNavigation/build/udh1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/home/TestNavigation/install/udh1_description', 'merge_install': False, 'path': '/home/home/TestNavigation/src/udh1_description', 'symlink_install': True, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'udh1_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'udh1_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/home/TestNavigation/build/udh1_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/home/TestNavigation/install/udh1_mapping', 'merge_install': False, 'path': '/home/home/TestNavigation/src/udh1_mapping', 'symlink_install': True, 'test_result_base': None}
+[0.404s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/home/TestNavigation/src/my_robot_bringup' with build type 'ament_python'
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'ament_prefix_path')
+[0.407s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/hook/ament_prefix_path.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/hook/ament_prefix_path.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/hook/ament_prefix_path.sh'
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/home/TestNavigation/src/serial_com_py' with build type 'ament_python'
+[0.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_com_py', 'ament_prefix_path')
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/hook/ament_prefix_path.ps1'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/hook/ament_prefix_path.dsv'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/hook/ament_prefix_path.sh'
+[0.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/home/TestNavigation/src/sllidar_ros2' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/home/TestNavigation/src/sllidar_ros2'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/home/TestNavigation/src/udh1_description' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/home/TestNavigation/src/udh1_description'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/home/TestNavigation/src/udh1_mapping' with build type 'ament_python'
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('udh1_mapping', 'ament_prefix_path')
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/hook/ament_prefix_path.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/hook/ament_prefix_path.dsv'
+[0.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/hook/ament_prefix_path.sh'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/home/TestNavigation/src/my_robot_bringup'
+[0.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.079s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/home/TestNavigation/src/serial_com_py'
+[1.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/home/TestNavigation/build/sllidar_ros2 -- -j20 -l20
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/udh1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/home/TestNavigation/build/udh1_description -- -j20 -l20
+[1.383s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/home/TestNavigation/src/udh1_mapping'
+[1.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/udh1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/home/TestNavigation/build/udh1_description -- -j20 -l20
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/udh1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/home/TestNavigation/build/udh1_description
+[1.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/home/TestNavigation/build/sllidar_ros2 -- -j20 -l20
+[1.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/home/TestNavigation/build/sllidar_ros2
+[1.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udh1_description)
+[1.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/udh1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/home/TestNavigation/build/udh1_description
+[1.444s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description' for CMake module files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description' for CMake config files
+[1.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('udh1_description', 'cmake_prefix_path')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_description/share/udh1_description/hook/cmake_prefix_path.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/udh1_description/share/udh1_description/hook/cmake_prefix_path.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_description/share/udh1_description/hook/cmake_prefix_path.sh'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/bin'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/lib/pkgconfig/udh1_description.pc'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/lib/python3.10/site-packages'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/bin'
+[1.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.dsv'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.sh'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.bash'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.zsh'
+[1.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/udh1_description/share/colcon-core/packages/udh1_description)
+[1.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udh1_description)
+[1.457s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description' for CMake module files
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description' for CMake config files
+[1.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('udh1_description', 'cmake_prefix_path')
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_description/share/udh1_description/hook/cmake_prefix_path.ps1'
+[1.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/udh1_description/share/udh1_description/hook/cmake_prefix_path.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_description/share/udh1_description/hook/cmake_prefix_path.sh'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/bin'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/lib/pkgconfig/udh1_description.pc'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/lib/python3.10/site-packages'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_description/bin'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.ps1'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.sh'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_description/share/udh1_description/package.zsh'
+[1.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/udh1_description/share/colcon-core/packages/udh1_description)
+[1.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2' for CMake module files
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/home/TestNavigation/build/sllidar_ros2
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2' for CMake config files
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/lib'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/bin'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/bin'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2' for CMake module files
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2' for CMake config files
+[1.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/lib'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/bin'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/sllidar_ros2/bin'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/my_robot_bringup': PYTHONPATH=/home/home/TestNavigation/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/my_robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/my_robot_bringup/build --no-deps symlink_data
+[1.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/serial_com_py': PYTHONPATH=/home/home/TestNavigation/build/serial_com_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/serial_com_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/serial_com_py/build --no-deps symlink_data
+[1.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/home/TestNavigation/build/udh1_mapping': PYTHONPATH=/home/home/TestNavigation/build/udh1_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/udh1_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/udh1_mapping/build --no-deps symlink_data
+[2.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'pythonpath_develop')
+[2.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/build/my_robot_bringup/share/my_robot_bringup/hook/pythonpath_develop.ps1'
+[2.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/my_robot_bringup' returned '0': PYTHONPATH=/home/home/TestNavigation/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/my_robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/my_robot_bringup/build --no-deps symlink_data
+[2.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/build/my_robot_bringup/share/my_robot_bringup/hook/pythonpath_develop.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/build/my_robot_bringup/share/my_robot_bringup/hook/pythonpath_develop.sh'
+[2.542s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup' for CMake module files
+[2.542s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup' for CMake config files
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup/lib'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup/bin'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.543s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'pythonpath')
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/hook/pythonpath.ps1'
+[2.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/hook/pythonpath.dsv'
+[2.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/hook/pythonpath.sh'
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/my_robot_bringup/bin'
+[2.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_com_py', 'pythonpath_develop')
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/build/serial_com_py/share/serial_com_py/hook/pythonpath_develop.ps1'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/build/serial_com_py/share/serial_com_py/hook/pythonpath_develop.dsv'
+[2.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/serial_com_py' returned '0': PYTHONPATH=/home/home/TestNavigation/build/serial_com_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/serial_com_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/serial_com_py/build --no-deps symlink_data
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/build/serial_com_py/share/serial_com_py/hook/pythonpath_develop.sh'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py' for CMake module files
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py' for CMake config files
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py/lib'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py/bin'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py/lib/pkgconfig/serial_com_py.pc'
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py/lib/python3.10/site-packages'
+[2.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_com_py', 'pythonpath')
+[2.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/hook/pythonpath.ps1'
+[2.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/hook/pythonpath.dsv'
+[2.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/hook/pythonpath.sh'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/serial_com_py/bin'
+[2.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_com_py)
+[2.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/package.ps1'
+[2.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/package.dsv'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/package.sh'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/package.bash'
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/serial_com_py/share/serial_com_py/package.zsh'
+[2.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/serial_com_py/share/colcon-core/packages/serial_com_py)
+[2.715s] Level 1:colcon.colcon_core.shell:create_environment_hook('udh1_mapping', 'pythonpath_develop')
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/build/udh1_mapping/share/udh1_mapping/hook/pythonpath_develop.ps1'
+[2.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/home/TestNavigation/build/udh1_mapping' returned '0': PYTHONPATH=/home/home/TestNavigation/build/udh1_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/home/TestNavigation/install/udh1_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/home/TestNavigation/build/udh1_mapping/build --no-deps symlink_data
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/build/udh1_mapping/share/udh1_mapping/hook/pythonpath_develop.dsv'
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/build/udh1_mapping/share/udh1_mapping/hook/pythonpath_develop.sh'
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping' for CMake module files
+[2.718s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping' for CMake config files
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping/lib'
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping/bin'
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping/lib/pkgconfig/udh1_mapping.pc'
+[2.719s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping/lib/python3.10/site-packages'
+[2.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('udh1_mapping', 'pythonpath')
+[2.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/hook/pythonpath.ps1'
+[2.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/hook/pythonpath.dsv'
+[2.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/hook/pythonpath.sh'
+[2.721s] Level 1:colcon.colcon_core.environment:checking '/home/home/TestNavigation/install/udh1_mapping/bin'
+[2.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udh1_mapping)
+[2.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/package.ps1'
+[2.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/package.dsv'
+[2.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/package.sh'
+[2.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/package.bash'
+[2.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/home/TestNavigation/install/udh1_mapping/share/udh1_mapping/package.zsh'
+[2.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/home/TestNavigation/install/udh1_mapping/share/colcon-core/packages/udh1_mapping)
+[2.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.724s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.730s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.730s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.743s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.744s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/home/TestNavigation/install/local_setup.ps1'
+[2.745s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/home/TestNavigation/install/_local_setup_util_ps1.py'
+[2.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/home/TestNavigation/install/setup.ps1'
+[2.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/home/TestNavigation/install/local_setup.sh'
+[2.748s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/home/TestNavigation/install/_local_setup_util_sh.py'
+[2.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/home/TestNavigation/install/setup.sh'
+[2.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/home/TestNavigation/install/local_setup.bash'
+[2.751s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/home/TestNavigation/install/setup.bash'
+[2.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/home/TestNavigation/install/local_setup.zsh'
+[2.753s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/home/TestNavigation/install/setup.zsh'

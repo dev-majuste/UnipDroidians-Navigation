@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/majuste/Programação/ROS2/UDH1/Navigation/build/serial_com_py"
+_colcon_prepend_unique_value PYTHONPATH "/home/home/TestNavigation/build/serial_com_py"

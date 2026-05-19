@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/majuste/Programação/ROS2/UDH1/Navigation/install/serial_com_py'
+    sys.prefix = sys.exec_prefix = '/home/home/TestNavigation/install/serial_com_py'

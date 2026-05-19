@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/majuste/Programação/ROS2/UDH1/Navigation/src/sllidar_ros2
+CMAKE_SOURCE_DIR = /home/home/TestNavigation/src/sllidar_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2
+CMAKE_BINARY_DIR = /home/home/TestNavigation/build/sllidar_ros2
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/majuste/Programação/ROS2/UDH1/Navigation/src/sllidar_ros2 /home/majuste/Programação/ROS2/UDH1/Navigation/src/sllidar_ros2 /home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2 /home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2 /home/majuste/Programação/ROS2/UDH1/Navigation/build/sllidar_ros2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/home/TestNavigation/build/sllidar_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/home/TestNavigation/src/sllidar_ros2 /home/home/TestNavigation/src/sllidar_ros2 /home/home/TestNavigation/build/sllidar_ros2 /home/home/TestNavigation/build/sllidar_ros2 /home/home/TestNavigation/build/sllidar_ros2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
