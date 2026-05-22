@@ -1,1 +1,0 @@
-/home/home/TestNavigation/build/udh1_description/ament_cmake_environment_hooks/local_setup.bash

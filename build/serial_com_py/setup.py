@@ -1,1 +1,0 @@
-/home/home/TestNavigation/src/serial_com_py/setup.py

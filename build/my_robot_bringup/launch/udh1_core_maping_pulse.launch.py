@@ -1,1 +1,0 @@
-/home/home/TestNavigation/src/my_robot_bringup/launch/udh1_core_maping_pulse.launch.py

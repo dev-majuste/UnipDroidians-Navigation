@@ -1,1 +1,0 @@
-/home/home/TestNavigation/build/my_robot_bringup/launch/visualizar_mapa.launch.py

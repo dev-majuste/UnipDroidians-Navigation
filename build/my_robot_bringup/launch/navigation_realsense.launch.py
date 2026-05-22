@@ -1,1 +1,0 @@
-/home/home/TestNavigation/src/my_robot_bringup/launch/navigation_realsense.launch.py
