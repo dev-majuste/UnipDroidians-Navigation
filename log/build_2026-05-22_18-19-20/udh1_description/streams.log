@@ -1,0 +1,24 @@
+[0.853s] Invoking command in '/home/home/TestNavigation/build/udh1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/home/home/Navigation/install/udh1_mapping:/home/home/Navigation/install/serial_com_py:/home/home/Navigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/home/TestNavigation/build/udh1_description -- -j20 -l20
+[1.291s] Invoked command in '/home/home/TestNavigation/build/udh1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/home/home/Navigation/install/udh1_mapping:/home/home/Navigation/install/serial_com_py:/home/home/Navigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --build /home/home/TestNavigation/build/udh1_description -- -j20 -l20
+[1.305s] Invoking command in '/home/home/TestNavigation/build/udh1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/home/home/Navigation/install/udh1_mapping:/home/home/Navigation/install/serial_com_py:/home/home/Navigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/home/TestNavigation/build/udh1_description
+[1.318s] -- Install configuration: ""
+[1.320s] -- Execute custom install script
+[1.321s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/urdf/udh1.urdf
+[1.321s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/launch/display.launch.py
+[1.322s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/rviz/udh1_config.rviz
+[1.322s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/ament_index/resource_index/package_run_dependencies/udh1_description
+[1.322s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/ament_index/resource_index/parent_prefix_path/udh1_description
+[1.322s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/environment/ament_prefix_path.sh
+[1.322s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/environment/ament_prefix_path.dsv
+[1.322s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/environment/path.sh
+[1.323s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/environment/path.dsv
+[1.323s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/local_setup.bash
+[1.323s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/local_setup.sh
+[1.323s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/local_setup.zsh
+[1.323s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/local_setup.dsv
+[1.323s] -- Symlinking: /home/home/TestNavigation/install/udh1_description/share/udh1_description/package.dsv
+[1.337s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/ament_index/resource_index/packages/udh1_description
+[1.337s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/cmake/udh1_descriptionConfig.cmake
+[1.337s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/cmake/udh1_descriptionConfig-version.cmake
+[1.337s] -- Up-to-date symlink: /home/home/TestNavigation/install/udh1_description/share/udh1_description/package.xml
+[1.341s] Invoked command in '/home/home/TestNavigation/build/udh1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/home/TestNavigation/install/udh1_mapping:/home/home/TestNavigation/install/serial_com_py:/home/home/TestNavigation/install/my_robot_bringup:/home/home/Navigation/install/udh1_mapping:/home/home/Navigation/install/serial_com_py:/home/home/Navigation/install/my_robot_bringup:/opt/ros/humble /usr/bin/cmake --install /home/home/TestNavigation/build/udh1_description

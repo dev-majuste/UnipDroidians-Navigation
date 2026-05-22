@@ -64,7 +64,7 @@ class BaseDriver(Node):
         # =========================
         self.cmd_sub = self.create_subscription(
             Twist,
-            'cmd_vel_safe',
+            'cmd_vel',
             self.cmd_callback,
             10
         )

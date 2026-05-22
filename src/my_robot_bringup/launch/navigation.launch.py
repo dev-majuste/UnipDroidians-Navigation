@@ -15,9 +15,8 @@ def generate_launch_description():
     map_file_arg = DeclareLaunchArgument(
         'map',
         default_value=os.path.join(
-            my_bringup_dir,
             'mapas',
-            'mapa_udh1.yaml'
+            'udh1_mapa.yaml'
         ),
         description='Caminho para o .yaml do mapa'
     )
@@ -82,24 +81,23 @@ def generate_launch_description():
         )
     )
 
-    # map_server_node = Node(
-    #     package='nav2_map_server',
-    #     executable='map_server',
-    #     name='map_server',
-    #     output='screen',
-    #     parameters=[{
-    #         'use_sim_time':  False,
-    #         'yaml_filename': map_file
-    #     }]
-    # )
+    map_server_node = Node(
+        package='nav2_map_server',
+        executable='map_server',
+        name='map_server',
+        output='screen',
+        parameters=[{
+            'yaml_filename': map_file
+        }]
+    )
 
-    # amcl_node = Node(
-    #     package='nav2_amcl',
-    #     executable='amcl',
-    #     name='amcl',
-    #     output='screen',
-    #     parameters=[params_file]
-    # )
+    amcl_node = Node(
+        package='nav2_amcl',
+        executable='amcl',
+        name='amcl',
+        output='screen',
+        parameters=[params_file]
+    )
 
     nav2_bringup = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -109,24 +107,22 @@ def generate_launch_description():
             )
         ),
         launch_arguments={
-            'use_sim_time': 'false',
             'map':          map_file,
             'params_file':  params_file,
             'autostart':    'true',
         }.items()
     )
 
-    # lifecycle_manager = Node(
-    #     package='nav2_lifecycle_manager',
-    #     executable='lifecycle_manager',
-    #     name='lifecycle_manager_localization',
-    #     output='screen',
-    #     parameters=[{
-    #         'use_sim_time': False,
-    #         'autostart':    True,
-    #         'node_names':   ['map_server', 'amcl']
-    #     }]
-    # )
+    lifecycle_manager = Node(
+        package='nav2_lifecycle_manager',
+        executable='lifecycle_manager',
+        name='lifecycle_manager_localization',
+        output='screen',
+        parameters=[{
+            'autostart':    True,
+            'node_names':   ['map_server', 'amcl']
+        }]
+    )
 
     rviz_node = Node(
         package='rviz2',
@@ -134,7 +130,7 @@ def generate_launch_description():
         name='rviz2',
         output='screen',
         arguments=['-d', os.path.join(my_bringup_dir, 'rviz', 'nav2_udh1.rviz')],
-        parameters=[{'use_sim_time': False}]
+        parameters=[]
     )
 
     return LaunchDescription([
@@ -145,9 +141,9 @@ def generate_launch_description():
         safe_stop_node,
         lidar_node,
         filter_launch,
-        #map_server_node,
-        #amcl_node,
-        #lifecycle_manager,
+        map_server_node,
+        amcl_node,
+        lifecycle_manager,
         nav2_bringup, #o nav2 ja puxa esses trem sozinho, espero
         rviz_node,
     ])
